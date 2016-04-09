@@ -250,7 +250,7 @@ Now run `sudo python off.py` to turn off the LED.
 
 Done!
 
-[Video of project](https://streamable.com/e/2ohc)
+[Video of project! See the Pi in action](https://streamable.com/vgo6)
 
 ## 1.10 Takeaways
 When I began the process of translating my original text, I imagined the text to speech software would fail because of bad OCR. I was surprised. Tesseract OCRd my paper beautifully with few errors. The text to speech operation produced an equally sound audio file with a near perfect reading of the OCRd text file and the original paper. However, when the audio was converted back into a text file, the result was a garbled mess of text.
