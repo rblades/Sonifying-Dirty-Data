@@ -202,7 +202,7 @@ Use the following image from Adafruit to connect the remaining components. The s
 ## 1.9 Compare Text Files
 We will be using a python script to compare our two text files and visually show us the ratio of similarity between the original file and the translated file. Open the Pi text editor and paste in the following code:
 
-  from difflib import SequenceMatcher
+  ```from difflib import SequenceMatcher
   
   import RPi.GPIO as GPIO
 
@@ -225,7 +225,7 @@ We will be using a python script to compare our two text files and visually show
           GPIO.output(RED_LED, False)
       else:
           GPIO.output(GREEN_LED, False)
-          GPIO.output(RED_LED, True)
+          GPIO.output(RED_LED, True)```
 
 **NOTE**: Python reads each line's indentation. Make sure you have retained the structure of the above code.
 
